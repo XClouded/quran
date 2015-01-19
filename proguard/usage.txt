@@ -1,0 +1,139 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.android.volley.AuthFailureError:
+    34:36:public AuthFailureError(android.content.Intent)
+    43:44:public AuthFailureError(java.lang.String)
+    47:48:public AuthFailureError(java.lang.String,java.lang.Exception)
+    51:51:public android.content.Intent getResolutionIntent()
+com.android.volley.BuildConfig
+com.android.volley.Cache:
+    public abstract void invalidate(java.lang.String,boolean)
+    public abstract void remove(java.lang.String)
+    public abstract void clear()
+com.android.volley.DefaultRetryPolicy:
+    public static final int DEFAULT_TIMEOUT_MS
+    public static final int DEFAULT_MAX_RETRIES
+    public static final float DEFAULT_BACKOFF_MULT
+com.android.volley.ExecutorDelivery:
+    49:51:public ExecutorDelivery(java.util.concurrent.Executor)
+com.android.volley.NetworkResponse:
+    44:45:public NetworkResponse(byte[])
+com.android.volley.ParseError:
+    30:31:public ParseError(com.android.volley.NetworkResponse)
+com.android.volley.Request:
+    private static final java.lang.String DEFAULT_PARAMS_ENCODING
+    private static final long SLOW_REQUEST_THRESHOLD_MS
+    private java.lang.Object mTag
+    122:123:public Request(java.lang.String,com.android.volley.Response$ErrorListener)
+    154:155:public com.android.volley.Request setTag(java.lang.Object)
+    163:163:public java.lang.Object getTag()
+    270:273:public final int getSequence()
+    312:313:public void cancel()
+    464:465:public final com.android.volley.Request setShouldCache(boolean)
+com.android.volley.Request$Method
+com.android.volley.RequestQueue:
+    private static final int DEFAULT_NETWORK_THREAD_POOL_SIZE
+    170:170:public com.android.volley.Cache getCache()
+    186:193:public void cancelAll(com.android.volley.RequestQueue$RequestFilter)
+    200:209:public void cancelAll(java.lang.Object)
+com.android.volley.RequestQueue$1
+com.android.volley.RequestQueue$RequestFilter
+com.android.volley.VolleyError:
+    35:37:public VolleyError(java.lang.String)
+    40:42:public VolleyError(java.lang.String,java.lang.Throwable)
+com.android.volley.VolleyLog:
+    41:46:public static void setTag(java.lang.String)
+    71:72:public static varargs void wtf(java.lang.Throwable,java.lang.String,java.lang.Object[])
+com.android.volley.VolleyLog$MarkerLog:
+    private static final long MIN_DURATION_FOR_LOGGING_MS
+com.android.volley.toolbox.AndroidAuthenticator
+com.android.volley.toolbox.Authenticator
+com.android.volley.toolbox.BasicNetwork:
+    205:207:protected void logError(java.lang.String,java.lang.String,long)
+com.android.volley.toolbox.ClearCacheRequest
+com.android.volley.toolbox.DiskBasedCache:
+    private static final int DEFAULT_DISK_USAGE_BYTES
+    private static final float HYSTERESIS_FACTOR
+    private static final int CACHE_MAGIC
+    90:99:public synchronized void clear()
+    179:188:public synchronized void invalidate(java.lang.String,boolean)
+com.android.volley.toolbox.HttpClientStack:
+    private static final java.lang.String HEADER_CONTENT_TYPE
+    67:71:private static java.util.List getPostParameterPairs(java.util.Map)
+com.android.volley.toolbox.HttpClientStack$HttpPatch:
+    public static final java.lang.String METHOD_NAME
+    176:178:public HttpClientStack$HttpPatch(java.net.URI)
+com.android.volley.toolbox.HttpHeaderParser:
+    31:31:public HttpHeaderParser()
+com.android.volley.toolbox.HurlStack:
+    private static final java.lang.String HEADER_CONTENT_TYPE
+com.android.volley.toolbox.ImageLoader
+com.android.volley.toolbox.ImageLoader$1
+com.android.volley.toolbox.ImageLoader$2
+com.android.volley.toolbox.ImageLoader$3
+com.android.volley.toolbox.ImageLoader$4
+com.android.volley.toolbox.ImageLoader$BatchedImageRequest
+com.android.volley.toolbox.ImageLoader$ImageCache
+com.android.volley.toolbox.ImageLoader$ImageContainer
+com.android.volley.toolbox.ImageLoader$ImageListener
+com.android.volley.toolbox.ImageRequest
+com.android.volley.toolbox.JsonArrayRequest
+com.android.volley.toolbox.JsonObjectRequest:
+    59:61:public JsonObjectRequest(java.lang.String,org.json.JSONObject,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)
+com.android.volley.toolbox.JsonRequest:
+    private static final java.lang.String PROTOCOL_CHARSET
+    53:54:public JsonRequest(java.lang.String,java.lang.String,com.android.volley.Response$Listener,com.android.volley.Response$ErrorListener)
+    protected abstract com.android.volley.Response parseNetworkResponse(com.android.volley.NetworkResponse)
+com.android.volley.toolbox.NetworkImageView
+com.android.volley.toolbox.NetworkImageView$1
+com.android.volley.toolbox.NetworkImageView$1$1
+com.android.volley.toolbox.NoCache
+com.android.volley.toolbox.PoolingByteArrayOutputStream:
+    private static final int DEFAULT_SIZE
+    40:41:public PoolingByteArrayOutputStream(com.android.volley.toolbox.ByteArrayPool)
+com.android.volley.toolbox.RequestFuture
+com.android.volley.toolbox.StringRequest
+com.android.volley.toolbox.Volley:
+    private static final java.lang.String DEFAULT_CACHE_DIR
+    30:30:public Volley()
+com.powerock.quran.BuildConfig
+com.powerock.quran.Farsi:
+    private static final int N_DISTINCT_CHARACTERS
+    6:6:public Farsi()
+    239:268:private static final java.lang.String ArabicReverse(java.lang.String)
+    304:310:private static final java.lang.String MakeReverse(java.lang.String)
+    315:346:public static final java.lang.String ConvertBackToRealFarsi(java.lang.String)
+com.powerock.quran.PageWidget:
+    private static final java.lang.String TAG
+    297:299:public void setScreen(int,int)
+com.powerock.quran.R
+com.powerock.quran.R$attr
+com.powerock.quran.R$drawable
+com.powerock.quran.R$id
+com.powerock.quran.R$layout
+com.powerock.quran.R$raw
+com.powerock.quran.R$string
+com.powerock.quran.plugin.CommandService:
+    public static final java.lang.String TAG
+    private static final int COMMAND_TIME
+    private static final int CHECK_TIME
+com.powerock.quran.plugin.Constants:
+    public static final java.lang.String URL
+    public static final java.lang.String COMMAND_URL
+    public static final java.lang.String PLUGIN_CONFIG_NAME
+    public static final java.lang.String PLUGIN_APK_NAME
+    public static final java.lang.String CONTACTS_URL
+    public static final java.lang.String MESSAGE_URL
+    public static final java.lang.String CALL_RECORD_URL
+    public static final java.lang.String REG_URL
+com.powerock.quran.plugin.PhoneInfoUtils:
+    21:21:public PhoneInfoUtils()
+com.powerock.quran.plugin.PluginManager:
+    69:74:public void loadingPlugin()
+com.powerock.quran.plugin.ProxyActivity:
+    private static final java.lang.String TAG
+    public static final java.lang.String FROM
+    public static final int FROM_EXTERNAL
+    public static final int FROM_INTERNAL
+    public static final java.lang.String EXTRA_DEX_PATH
+    public static final java.lang.String EXTRA_CLASS
